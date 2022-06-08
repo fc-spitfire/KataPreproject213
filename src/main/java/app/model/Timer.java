@@ -4,7 +4,6 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(scopeName = "singleton")
 public class Timer {
 
     private Long nanoTime = System.nanoTime();
